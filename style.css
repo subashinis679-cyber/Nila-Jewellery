@@ -1,51 +1,40 @@
 body
+. categories 
 {
-  background-color: #fff8f2;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:25px;
+  max-width:900px;
+  margin:30px auto;
+  padding:20px;
+}
+. category 
+{
+  background-color: #fffaf5;
+  border:1px solid #d4a574;
+  border-radius:15px;
+  padding:25px;
   text-align: center;
-  font-family: Georgia,serif;
-  padding-top:80px;
+  box-sizing:28px;  
 }
-h1
+. category p
 {
-  color:#b8860b;
-  font-size: 50px;
+  color:#8b5e34;
+  font-size: 28px;
 }
-p
+. category p
 {
   color:#555;
-  font-size:22px;
-}
-button
-{
-  background-color:#b8860b;
-  color:#ffffff;
-  border:none;
-  padding:14px 30px;
   font-size:18px;
-  border-radius:25px;
-  cursor:pointer;
 }
-h2
+. category a
 {
-  margin-top: 40px;
+  display:inline-block;
+  margin-top:10px;
+  background-color:#b8860b;
+  color:white;
+  padding:10px 20px;
+  border-radius:20px;
+  text-decoration:none;
+  font-weight:bold;
 }
-div {
-  display: flex;
-  justify-content: center;
-  gap: 35px;
-  margin-top: 25px;
-}
-h3
-{
-  margin: 0
-}
-h3
-{
-  background-color:#fffaf5;
-  border:2px solid #b8860b;
-  padding:20px;
-  border-radius: 15px;
-  min-width:120px;
-}
-
-  
