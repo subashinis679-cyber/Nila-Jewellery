@@ -18,9 +18,10 @@ p
 button
 {
   background -color:#b8860b;
-  color:white;
+  color:#ffffff;
   border:none;
   padding:14px 30px;
   font-size:18px;
   border-radius:25px;
+  cursor:pointer;
 }
